@@ -1,0 +1,14 @@
+.logo {
+  display: block;
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--dark-color);
+
+  &::first-letter {
+    color: #d6bc24;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}

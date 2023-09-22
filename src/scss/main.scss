@@ -5,4 +5,18 @@
 @import "settings";
 
 // подключения компонентов страницы
+@import "./components/logo";
+@import "./components/nav";
 @import "./components/header";
+@import "./components/footer";
+@import "./components/btn";
+@import "./components/form";
+@import "./components/main-page/swiper";
+@import "./components/sidebar";
+@import "./components/main-page/catalog";
+@import "./components/main-page/hero";
+@import "./components/title";
+@import "./components/reviews-page/review";
+@import "./components/registration/registration";
+@import "./components/authorization/authorization";
+@import "./components/product/product";

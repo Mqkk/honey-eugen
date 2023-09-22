@@ -18,7 +18,7 @@ html {
   margin: 0;
   min-width: 320px;
   min-height: 100%;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 img {
@@ -31,8 +31,22 @@ a {
   text-decoration: none;
 }
 
+.main {
+  min-height: 100%;
+  height: 100%;
+
+  &__container {
+    display: flex;
+    gap: 30px;
+  }
+}
+
 .site-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   overflow: hidden; // на сайте используется position: sticky - убрать эту настройку
+  min-height: 100vh;
 }
 
 .is-hidden {

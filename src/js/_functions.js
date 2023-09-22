@@ -52,7 +52,7 @@ console.log(mobileCheck())
 // Подключение свайпера
 // import Swiper, { Navigation, Pagination } from 'swiper';
 // Swiper.use([Navigation, Pagination]);
-// const swiper = new Swiper(el, {
+// const swiper = new Swiper('.news', {
 //   slidesPerView: 'auto',
 // });
 

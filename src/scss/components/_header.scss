@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  border-bottom: 1px solid var(--gray-color);
+  min-height: 60px;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__right {
+    display: flex;
+    gap: 12px;
+  }
+}

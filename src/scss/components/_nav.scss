@@ -1,0 +1,19 @@
+.nav {
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 26px;
+    }
+  }
+
+  &__link {
+    color: var(--dark-color);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
